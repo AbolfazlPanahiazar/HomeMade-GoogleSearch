@@ -64,3 +64,32 @@ footer {
     border: 1px solid rgb(179, 178, 178);
     box-shadow: 0.4px 0.9px 1px 1px rgba(221, 221, 221, 0.8);
 }
+
+footer {
+    display: flex;
+}
+
+.nav-left {
+    display: inline-block;
+    align-content: center;
+}
+
+.nav-right {
+    display: inline-block;
+}
+
+.nav-left a{
+    padding: 10px;
+    display: inline-block;
+    color: rgb(102, 100, 100);
+    font-size: 14px;
+}
+
+.nav-right a{
+    padding: 10px;
+
+    display: inline-block;
+    color: rgb(102, 100, 100);
+    font-size: 14px;
+    float: right;
+}
